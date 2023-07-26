@@ -1,14 +1,14 @@
-package ru.alishev.springcourse.controllers;
+package ru.pyatkov.project1.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import ru.alishev.springcourse.dao.BookDAO;
-import ru.alishev.springcourse.dao.PersonDAO;
-import ru.alishev.springcourse.models.Book;
-import ru.alishev.springcourse.models.Person;
+import ru.pyatkov.project1.dao.BookDAO;
+import ru.pyatkov.project1.dao.PersonDAO;
+import ru.pyatkov.project1.models.Book;
+import ru.pyatkov.project1.models.Person;
 
 import javax.validation.Valid;
 import java.util.Optional;

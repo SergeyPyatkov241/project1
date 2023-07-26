@@ -1,4 +1,4 @@
-package ru.alishev.springcourse.models;
+package ru.pyatkov.project1.models;
 
 import org.springframework.lang.Nullable;
 

@@ -1,12 +1,9 @@
-package ru.alishev.springcourse.models;
+package ru.pyatkov.project1.models;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
-/**
- * @author Neil Alishev
- */
 public class Person {
 
     private int id;
